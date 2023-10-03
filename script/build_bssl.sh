@@ -6,7 +6,7 @@ cd src
 
 
 if [ ! -d "boringssl" ]; then
-    git clone https://github.com/google/boringssl.git
+    clone_repo.sh https://github.com/google/boringssl.git boringssl
 fi
 
 if [ -d "go" ]; then
